@@ -76,12 +76,15 @@
       display: none;
     }
     .about .social-images-links a {
-      width: 16%;
+      width: 60px;
     }
     .about .social-images-links {
       justify-content: space-around;
       padding-left: 15px;
       padding-right: 60px;
+    }
+    .about .social-images-links a .kaggle-image-set {
+      width: 110px !important;
     }
 }
 
