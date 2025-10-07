@@ -87,4 +87,14 @@
       width: 110px !important;
     }
 }
+@media screen and (max-width: 400px) {
+  .about .social-images-links a {
+    width: 100px;
+  }
+  .about .social-images-links {
+    padding-left: 0;
+    padding-right: 0;
+    gap: 13px;
+   } 
+}
 
