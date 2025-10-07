@@ -56,6 +56,12 @@
       left: 0;
     }
 
+    .contact .email-form .form-check-container {
+      flex-direction: column;
+      align-items: unset;
+      
+    }
+
 
   }
 
