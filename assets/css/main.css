@@ -1164,6 +1164,12 @@ section,
 }
 
 
+.contact .email-form  .form-check-label[type=checkbox] {
+  border-radius: .25em;
+  /* color: red; */
+  background-color: #878f96;
+  border-color: #656a6fc4;
+}
 
 /*--------------------------------------------------------------
 # Portfolio Details Section
