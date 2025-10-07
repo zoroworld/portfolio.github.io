@@ -1,0 +1,68 @@
+@media (min-width: 1200px) and (max-width: 1600px) {
+    .header~main {
+      margin-left: 160px;
+    }
+  
+    .header~main .hero {
+      margin-left: -160px;
+      width: 100vw;
+    }
+}
+
+
+@media (max-width: 1199px) {
+    .header {
+      background-color: var(--background-color);
+      border-right: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+      width: 300px;
+      left: -100%;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+
+    .navmenu a,
+    .navmenu a:focus {
+      max-width: 56px;
+    }
+  
+    .navmenu a span,
+    .navmenu a:focus span {
+      display: none;
+    }
+}
+
+
+
+  /*--------------------------------------------------------------
+# Disable aos animation delay on mobile devices
+--------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+    [data-aos-delay] {
+      transition-delay: 0 !important;
+    }
+
+     .hero h2 {
+        font-size: 32px;
+      }
+    
+      .hero p {
+        font-size: 20px;
+    }
+
+
+  }
+
+  
+@media screen and (max-width: 575px) {
+    .portfolio .portfolio-filters li {
+      font-size: 14px;
+      margin: 0 0 10px 0;
+    }
+    .portfolio-details .swiper-button-prev,
+    .portfolio-details .swiper-button-next {
+      display: none;
+    }
+}
+
