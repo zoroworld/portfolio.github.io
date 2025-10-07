@@ -59,7 +59,7 @@
     .contact .email-form .form-check-container {
       flex-direction: column;
       align-items: unset;
-      
+
     }
 
 
@@ -74,6 +74,9 @@
     .portfolio-details .swiper-button-prev,
     .portfolio-details .swiper-button-next {
       display: none;
+    }
+    .about .social-images-links {
+      justify-content: space-around;
     }
 }
 
