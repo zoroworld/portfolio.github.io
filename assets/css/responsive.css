@@ -51,6 +51,11 @@
         font-size: 20px;
     }
 
+    .hero img {
+      right: 0;
+      left: 0;
+    }
+
 
   }
 
