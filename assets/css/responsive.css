@@ -75,8 +75,13 @@
     .portfolio-details .swiper-button-next {
       display: none;
     }
+    .about .social-images-links a {
+      width: 16%;
+    }
     .about .social-images-links {
       justify-content: space-around;
+      padding-left: 15px;
+      padding-right: 60px;
     }
 }
 
