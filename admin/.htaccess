@@ -1,0 +1,8 @@
+# 🔐 Lock admin folder
+AuthType Basic
+AuthName "Admin Login"
+AuthUserFile /home/username/.htpasswd
+Require valid-user
+
+Options -Indexes
+
