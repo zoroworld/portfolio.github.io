@@ -1,6 +1,0 @@
-AuthType Basic
-AuthName "Admin Login"
-AuthUserFile /portfolio.github.io/.htaccess
-Require valid-user
-
-Options -Indexes

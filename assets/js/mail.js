@@ -1,24 +1,24 @@
 (function () {
   "use strict";
 
-  const contactForm = document.getElementById("contact-form");
-
-  contactForm.addEventListener("submit", function (e) {
+  document.getElementById("contact-form").addEventListener("submit", async function(e) {
     e.preventDefault();
-    const formData = new FormData(e.target);
-    const output = {};
-    for (const [key, value] of formData.entries()) {
-      if (output[key]) {
-        if (Array.isArray(output[key])) {
-          output[key].push(value);
-        } else {
-          output[key] = [output[key], value];
-        }
-      } else {
-        output[key] = value;
-      }
+    const form = e.target;
+    const data = new FormData(form);
+  
+    const response = await fetch(form.action, {
+      method: form.method,
+      body: data,
+      headers: { "Accept": "application/json" }
+    });
+  
+    if (response.ok) {
+      alert("Form submitted successfully!");
+      form.reset();
+    } else {
+      alert("Failed to submit form. Try again.");
     }
-
-    console.log(output)
   });
+
+
 })();
