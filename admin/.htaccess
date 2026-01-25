@@ -1,8 +1,6 @@
-# 🔐 Lock admin folder
 AuthType Basic
 AuthName "Admin Login"
-AuthUserFile ./.htpasswd
+AuthUserFile /portfolio.github.io/.htaccess
 Require valid-user
 
 Options -Indexes
-
